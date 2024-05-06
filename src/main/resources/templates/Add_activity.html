@@ -14,15 +14,15 @@
                     <table class="table table-bordered">
                         <tr>
                             <td>Activity Name:</td>
-                            <td><input type="text" class="form-control" th:field="*{---}" placeholder="Enter product name" required></td>
+                            <td><input type="text" class="form-control" th:field="${activityname}" placeholder="Enter product name" required></td>
                         </tr>
                         <tr>
                             <td>description:</td>
-                            <td><input type="text" class="form-control" th:field="*{----}" placeholder="Enter price" required></td>
+                            <td><input type="text" class="form-control" th:field="${description}" placeholder="Enter price" required></td>
                         </tr>
                         <tr>
                             <td>Photo:</td>
-                            <td><input type="file" class="form-control-file" th:field="*{-----}" accept="image/png, image/jpeg" required></td>
+                            <td><input type="file" class="form-control-file" th:field="${photos}" accept="image/png, image/jpeg" required></td>
                         </tr>
                     </table>
                     <div class="text-center">
